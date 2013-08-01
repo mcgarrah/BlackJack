@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  <meta charset="utf-8">
+  <title>CardsJS</title>
+  <font size="10">
+<font color="FFFFFF">
+<marquee bgcolor="#000000" 
+behavior="alternate" loops="100"><FONT FACE="algerian">BlackJack</font>
+</marquee>
+</font>
+</font>
+  <meta name="description" content="cardsJS">
+  <meta name="author" content="roguequery">
+  <link rel="stylesheet" href="css/styles.css">
+    <script src="js/kinetic-v4.5.4.min.js"></script>
+  </head>
+  <body>
+    <style type= "text/css">
+    
+    input{
+      border: 3px solid DarkBlue;
+    }
+    </style>
+     <style type= "text/css">
+    
+    button{
+      border: 3px solid Black;
+    }
+    </style>
+    <style>
+    body {background-image: url(http://subno.net/wp-content/uploads/2013/07/cool-3d-wallpaper-greendownload-wallpaper-green-wallpaper-1920x1200-cool-green-2-fan-top-huvvgnxo.jpg);}
+    </style>
+      <!--     <div id="container"></div> -->
+    <center>
+    <canvas id="myCanvas"></canvas>
+    <input type="button" value="Rules/Help" onClick = "getRule()" style= "height: 50px; width: 100px">
+    <input type="button" value="Hit" onClick = "hit('player')" style= "height: 50px; width: 100px">
+    <input type="button" value="Stand" onClick = "stand()" style= "height: 50px; width: 100px">
+    <input type="button" value="Double Down" id="hit" onClick = "doubledown()" style= "height: 50px; width: 100px">
+    
+<font size="5">
+    <p id="Money">500</p><p>Money</p>
+    <p id="numClicks">10</p><p>Bet</p>
+</font>
+    <button onclick="clickMe('up')">+</button>
+    <button onclick="clickMe('down')">-</button>
+    </center>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
